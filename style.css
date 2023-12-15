@@ -1,17 +1,89 @@
-body {
+body{
+  font-family: Arial, Helvetica, sans-serif;
+  text-align: center;
+}
+
+#contenedor{
+  background-color: #18022d;width: 100%;
+  height: 100%;
   margin: 0;
-  font-family: Arial,Helvetica, sans-serif;
+  inset: 0;
+  position: absolute;
+  overflow: hidden;
+}
+
+
+#cabecera{
+  height: 10%;
+  width: 95%;
+  background-color: #684396;
+  position: absolute;
+  margin: 0;
+  inset: 0;
+  margin-left: auto;
+  text-align: center; 
+  display: flex;
+  min-height: 60px;
+  z-index: 2;
+  max-height: 60px;
+}
+
+
+#navegador{
+  height: 100%;
+  width: 5%;
+  background-color: #684396;
+  position: absolute;
+  min-width: 60px;
+  z-index: 3;
+}
+
+.icono{
+  height: 50px;
+  width: 50px;
+  margin-bottom: 25px;
+  margin-top: 10px;
+  position: relative;
+}
+
+#logo{
+  width: 55px;
+  height: 55px;
+  margin-left: 60px;
+  margin-top: 4px;}
+
+h1{
+  margin-left: auto;
+  margin-right: auto; 
+  font-weight: bold;
+  font-size: 40px;
+  margin-bottom: auto;
+  margin-top: auto;
+  color: #fff;
+
+}
+
+#ventanaPrincipal{
+  height: 92%;
+  width: 100%;
+  background-color: #18022d;
+  position: absolute;
+  margin-top: 4%;
+  z-index: 1;
   color: #fff;
 }
+
+.registro, .info{
+  height: 200px;
+  width: 100%;
+  background-color: #1a0241;
+  padding: 20px;
+  text-align: center;
+}
+
 img{
   width: 50px;
   height: 50px;
-}
-.menu{
-  float: left;
-  width: 60px;
-  padding: 20px;
-  background-color: #684396
 }
 .titulo{
   float: left;
@@ -36,35 +108,11 @@ img{
   
 }
 
-.menu-derecho {
-  background-color: #684396;
-  color: #fff;
-  width: 60px;
-  padding: 20px;
-}
-.menu-derecho li:hover {
+img:hover {
   background-color: #1a0241; /* Cambia este color al que desees */
   
 }
 
-.menu-derecho ul {
-  list-style: none;
-  padding: 0;
-}
 
-.menu-derecho li {
-  margin-bottom: 15px;
-}
 
-.menu-derecho a {
-  text-decoration: none;
-  color: #fff;
-}
 
-.contenido-principal {
-  float: right;
-  padding: 0px;
-  
-  width: 100%;
-  padding: 0px;
-}
